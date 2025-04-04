@@ -1,0 +1,94 @@
+/* Default theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Cyberpunk Theme */
+body.cyberpunk {
+    background-color: #111;
+    color: #00ff99;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body.cyberpunk header {
+    background-color: #ff007f;
+}
+
+body.cyberpunk .content {
+    background-color: #222;
+    border: 2px solid #00ff99;
+}
+
+/* Nature Theme */
+body.nature {
+    background-color: #f4f4f4;
+    color: #3e8e41;
+    font-family: 'Georgia', serif;
+}
+
+body.nature header {
+    background-color: #8b5e3c;
+}
+
+body.nature .content {
+    background-color: #fff;
+    border: 2px solid #3e8e41;
+}
+
+/* Retro Theme */
+body.retro {
+    background-color: #ffcc00;
+    color: #333;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body.retro header {
+    background-color: #ff6600;
+}
+
+body.retro .content {
+    background-color: #fff;
+    border: 2px solid #ff6600;
+}
